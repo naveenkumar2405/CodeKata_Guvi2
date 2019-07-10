@@ -2,16 +2,15 @@
 using namespace std;
 int main()
 {
- int a;
- int g;
-cin>>a>>g;
-while(a<g){
-
- if(a%2==0)
- {
- cout << a <<" ";
-
- }
- a = a+1;
-}
+    int num,in,en;
+    cin>>in>>en;
+    for(int i=in;i<en-1;i++)
+    {
+        num=i+1;
+        if(num%2==0)
+        {
+            cout <<num<<" ";
+        }
+        }
+    return 0;
 }
